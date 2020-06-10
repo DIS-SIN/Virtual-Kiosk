@@ -14,8 +14,8 @@ export default function Home(props) {
     return (
         <div className="home" style={{backgroundImage: `url(${background})`}}>
             <GCSplashScreen routes={{
-                english: "/",
-                french: "/fr"
+                english: "/Virtual-Kiosk",
+                french: "/Virtual-Kiosk/fr"
             }}/>
 
             <img class="map" src={kiosk} usemap="#image-map"/>
