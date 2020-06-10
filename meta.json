@@ -1,0 +1,16 @@
+{
+    "en": {
+        "lang": "en",
+        "title": "English site title",
+        "description": "English site description",
+        "url": "English site homepage url",
+        "image": "Path to English thumbnail image (put in public folder)"
+    },
+    "fr": {
+        "lang": "fr",
+        "title": "French site title",
+        "description": "French site description",
+        "url": "French site homepage url",
+        "image": "Path to French thumbnail image (put in public folder)"
+    }
+}
