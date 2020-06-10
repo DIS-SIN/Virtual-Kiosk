@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { GCSplashScreen } from 'gc-tortilla';
 import kiosk from './assets/kiosk.png';
 import background from './assets/background.png';
 
@@ -12,6 +13,10 @@ export default function Home(props) {
 
     return (
         <div className="home" style={{backgroundImage: `url(${background})`}}>
+            <GCSplashScreen routes={{
+                english: "/",
+                french: "/fr"
+            }}/>
 
             <img class="map" src={kiosk} usemap="#image-map"/>
 
