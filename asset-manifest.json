@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/Virtual-Kiosk/static/css/main.72ac695a.chunk.css",
-    "main.js": "/Virtual-Kiosk/static/js/main.035c6170.chunk.js",
-    "main.js.map": "/Virtual-Kiosk/static/js/main.035c6170.chunk.js.map",
+    "main.css": "/Virtual-Kiosk/static/css/main.74c9bbc1.chunk.css",
+    "main.js": "/Virtual-Kiosk/static/js/main.9b81e4be.chunk.js",
+    "main.js.map": "/Virtual-Kiosk/static/js/main.9b81e4be.chunk.js.map",
     "runtime-main.js": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js",
     "runtime-main.js.map": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js.map",
-    "static/js/2.d7255576.chunk.js": "/Virtual-Kiosk/static/js/2.d7255576.chunk.js",
-    "static/js/2.d7255576.chunk.js.map": "/Virtual-Kiosk/static/js/2.d7255576.chunk.js.map",
+    "static/js/2.40b16ff5.chunk.js": "/Virtual-Kiosk/static/js/2.40b16ff5.chunk.js",
+    "static/js/2.40b16ff5.chunk.js.map": "/Virtual-Kiosk/static/js/2.40b16ff5.chunk.js.map",
     "index.html": "/Virtual-Kiosk/index.html",
-    "precache-manifest.d10f4fbeb99199345b3f09c31485f8d8.js": "/Virtual-Kiosk/precache-manifest.d10f4fbeb99199345b3f09c31485f8d8.js",
+    "precache-manifest.809333622093220381bb7e1983ad7843.js": "/Virtual-Kiosk/precache-manifest.809333622093220381bb7e1983ad7843.js",
     "service-worker.js": "/Virtual-Kiosk/service-worker.js",
-    "static/css/main.72ac695a.chunk.css.map": "/Virtual-Kiosk/static/css/main.72ac695a.chunk.css.map",
-    "static/js/2.d7255576.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.d7255576.chunk.js.LICENSE.txt",
+    "static/css/main.74c9bbc1.chunk.css.map": "/Virtual-Kiosk/static/css/main.74c9bbc1.chunk.css.map",
+    "static/js/2.40b16ff5.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.40b16ff5.chunk.js.LICENSE.txt",
     "static/media/background.png": "/Virtual-Kiosk/static/media/background.28778082.png",
-    "static/media/kiosk.png": "/Virtual-Kiosk/static/media/kiosk.688af5e0.png"
+    "static/media/kioskEnglish.png": "/Virtual-Kiosk/static/media/kioskEnglish.88e9a6bc.png",
+    "static/media/kioskGlow.png": "/Virtual-Kiosk/static/media/kioskGlow.b332142b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6e6b3e6d.js",
-    "static/js/2.d7255576.chunk.js",
-    "static/css/main.72ac695a.chunk.css",
-    "static/js/main.035c6170.chunk.js"
+    "static/js/2.40b16ff5.chunk.js",
+    "static/css/main.74c9bbc1.chunk.css",
+    "static/js/main.9b81e4be.chunk.js"
   ]
 }
