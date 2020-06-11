@@ -17,8 +17,25 @@ body {
 
 .map {
     width: 1000px;
-    object-fit: contain;
     margin-bottom: 50px;
+}
+
+.map img {
+    object-fit: contain;
+}
+
+.kioskGlow {
+    position: absolute;
+    animation-name: glowPulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes glowPulse {
+    0%   {opacity: 0;}
+    50%  {opacity: 1;}
+    100% {opacity: 0;}
 }
 
 .richPreview {
