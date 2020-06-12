@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './Home';
+import Home from './components/pages/Home';
 import dictionary from './dictionaries/fr';
 import kiosk from './assets/kioskFrench.png';
 import './App.css';

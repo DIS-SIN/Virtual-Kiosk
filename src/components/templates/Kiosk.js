@@ -1,10 +1,9 @@
 import React, { useState, useRef } from 'react';
-import { GCSplashScreen } from 'gc-tortilla';
-import RichPreview from './components/organisms/RichPreview';
-import kioskGlow from './assets/kioskGlow.png';
-import background from './assets/background.png';
+import RichPreview from '../organisms/RichPreview';
+import kioskGlow from '../../assets/kioskGlow.png';
+import background from '../../assets/background.png';
 
-export default function Home(props) {
+export default function Kiosk(props) {
 
     const [previewData, setPreviewData] = useState(null);
 
@@ -19,10 +18,6 @@ export default function Home(props) {
 
     return (
         <div className="home" style={{backgroundImage: `url(${background})`}}>
-            <GCSplashScreen routes={{
-                english: "/Virtual-Kiosk",
-                french: "/Virtual-Kiosk/fr"
-            }}/>
 
             <div className="map">
                 <img className="kioskGlow" src={kioskGlow} useMap="#image-map"/>
