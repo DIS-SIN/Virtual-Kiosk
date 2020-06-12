@@ -25,8 +25,15 @@ export default function Home(props) {
             </div>
 
             <map name="image-map">
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Busrides" title="Busrides" href="https://busrides-trajetsenbus.ca" coords="132,269,211,341" shape="rect"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="The AI in YouTube" title="The AI in YouTube" href="https://www.youtube.com/watch?v=AbBcfjLXLTE&amp;feature=emb_title" coords="404,85,593,199" shape="rect"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="GC nuance meets digital know-how - Visit Busrides.ca" title="GC nuance meets digital know-how - Visit Busrides.ca" href="https://busrides-trajetsenbus.ca/" coords="127,278,129,327,135,340,207,333,203,319,196,274" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Over 4,000 of your peers are reading the Going Remote Guide, find out why!" title="Over 4,000 of your peers are reading the Going Remote Guide, find out why!" href="https://busrides-trajetsenbus.ca/en/going-remote-guide/" coords="264,265,320,263,323,323,268,324" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="We help public servants become digital. Discover Digital Academy." title="We help public servants become digital. Discover Digital Academy." href="https://www.csps-efpc.gc.ca/digital-academy/index-eng.aspx" coords="559,220,555,276,652,284,656,225" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Subscribe to our newsletter." title="Subscribe to our newsletter." href="https://da-an.us3.list-manage.com/subscribe?u=9e5810d743bf898c302d3c312&amp;id=bbc8bab3e7" coords="423,249,469,249,470,274,422,273" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Contact us" title="Contact us" href="mailto:csps.digitalacademy-academiedunumerique.efpc@canada.ca" coords="419,221,19" shape="circle"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="What’s going on at Digital Academy? Click to find out." title="What’s going on at Digital Academy? Click to find out." href="https://drive.google.com/drive/folders/1qwtKHi3vT00onClUtAYEt_kM45V_XEJv" coords="481,226,548,227,550,294,482,293" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Follow us on Twitter." title="Follow us on Twitter." href="https://twitter.com/DigiAcademyCAN" coords="391,260,18" shape="circle"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="What does it mean to be digital. Watch the video." title="What does it mean to be digital. Watch the video." href="https://www.youtube.com/watch?v=TZ-TA44WWHc" coords="407,90,588,193" shape="rect"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Learn about the new Discover Series" title="Learn about the new Discover Series" href="https://drive.google.com/file/d/1pa1-elG0E5IGtF1OWTePtAdnfndLotLF/view?usp=sharing" coords="729,222,871,229,864,332,722,320" shape="poly"/>
             </map>
 
             <div className="richPreview hide" ref={richPreviewRef}>
