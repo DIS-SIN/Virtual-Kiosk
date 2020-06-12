@@ -40,6 +40,7 @@ body {
 
 .richPreview {
     display: flex;
+    align-items: center;
     position: relative;
     width: 450px;
     height: 100px;
@@ -49,17 +50,14 @@ body {
 }
 
 .richPreview img {
-    height: 100px;
-    width: 100px;
+    max-height: 90%;
+    object-fit: contain;
     border-radius: 4px 0 0 4px;
-    background-color: black;
 }
 
-.richPreview div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
+.richPreview p {
+    flex: 1;
+    margin: 0 10px;
 }
 
 h2, p {

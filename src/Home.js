@@ -1,13 +1,19 @@
-import React, { useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { GCSplashScreen } from 'gc-tortilla';
+import RichPreview from './components/organisms/RichPreview';
 import kioskGlow from './assets/kioskGlow.png';
 import background from './assets/background.png';
 
 export default function Home(props) {
 
+    const [previewData, setPreviewData] = useState(null);
+
     const richPreviewRef = useRef();
 
     function showPreview(ev) {
+        let project = ev.target.getAttribute("data-project");
+        let item = ev.target.getAttribute("data-item");
+        setPreviewData(props.t[project][item]);
         richPreviewRef.current.classList.toggle("hide");
     }
 
@@ -24,24 +30,18 @@ export default function Home(props) {
             </div>
 
             <map name="image-map">
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="GC nuance meets digital know-how - Visit Busrides.ca" title="GC nuance meets digital know-how - Visit Busrides.ca" href="https://busrides-trajetsenbus.ca/" coords="127,278,129,327,135,340,207,333,203,319,196,274" shape="poly"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Over 4,000 of your peers are reading the Going Remote Guide, find out why!" title="Over 4,000 of your peers are reading the Going Remote Guide, find out why!" href="https://busrides-trajetsenbus.ca/en/going-remote-guide/" coords="264,265,320,263,323,323,268,324" shape="poly"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="We help public servants become digital. Discover Digital Academy." title="We help public servants become digital. Discover Digital Academy." href="https://www.csps-efpc.gc.ca/digital-academy/index-eng.aspx" coords="559,220,555,276,652,284,656,225" shape="poly"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Subscribe to our newsletter." title="Subscribe to our newsletter." href="https://da-an.us3.list-manage.com/subscribe?u=9e5810d743bf898c302d3c312&amp;id=bbc8bab3e7" coords="423,249,469,249,470,274,422,273" shape="poly"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Contact us" title="Contact us" href="mailto:csps.digitalacademy-academiedunumerique.efpc@canada.ca" coords="419,221,19" shape="circle"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="What’s going on at Digital Academy? Click to find out." title="What’s going on at Digital Academy? Click to find out." href="https://drive.google.com/drive/folders/1qwtKHi3vT00onClUtAYEt_kM45V_XEJv" coords="481,226,548,227,550,294,482,293" shape="poly"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Follow us on Twitter." title="Follow us on Twitter." href="https://twitter.com/DigiAcademyCAN" coords="391,260,18" shape="circle"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="What does it mean to be digital. Watch the video." title="What does it mean to be digital. Watch the video." href="https://www.youtube.com/watch?v=TZ-TA44WWHc" coords="407,90,588,193" shape="rect"/>
-                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" alt="Learn about the new Discover Series" title="Learn about the new Discover Series" href="https://drive.google.com/file/d/1pa1-elG0E5IGtF1OWTePtAdnfndLotLF/view?usp=sharing" coords="729,222,871,229,864,332,722,320" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="busrides" data-item="laptop" alt={props.t.busrides.laptop.cta} title={props.t.busrides.laptop.cta} href={props.t.busrides.laptop.url} coords="127,278,129,327,135,340,207,333,203,319,196,274" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="busrides" data-item="standingDoc" alt={props.t.busrides.standingDoc.cta} title={props.t.busrides.standingDoc.cta} href={props.t.busrides.standingDoc.url} coords="264,265,320,263,323,323,268,324" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="csps" data-item="computerScreen" alt={props.t.csps.computerScreen.cta} title={props.t.csps.computerScreen.cta} href={props.t.csps.computerScreen.url} coords="559,220,555,276,652,284,656,225" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="csps" data-item="envelope" alt={props.t.csps.envelope.cta} title={props.t.csps.envelope.cta} href={props.t.csps.envelope.url} coords="423,249,469,249,470,274,422,273" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="csps" data-item="atSign" alt={props.t.csps.atSign.cta} title={props.t.csps.atSign.cta} href={props.t.csps.atSign.url} coords="419,221,19" shape="circle"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="csps" data-item="standingDoc" alt={props.t.csps.standingDoc.cta} title={props.t.csps.standingDoc.cta} href={props.t.csps.standingDoc.url} coords="481,226,548,227,550,294,482,293" shape="poly"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="csps" data-item="twitterIcon" alt={props.t.csps.twitterIcon.cta} title={props.t.csps.twitterIcon.cta} href={props.t.csps.twitterIcon.url} coords="391,260,18" shape="circle"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="csps" data-item="tvScreen" alt={props.t.csps.tvScreen.cta} title={props.t.csps.tvScreen.cta} href={props.t.csps.tvScreen.url} coords="407,90,588,193" shape="rect"/>
+                <area onMouseOver={showPreview} onMouseOut={showPreview} target="_blank" data-project="discoverSeries" data-item="standingDoc" alt={props.t.discoverSeries.standingDoc.cta} title={props.t.discoverSeries.standingDoc.cta} href={props.t.discoverSeries.standingDoc.url} coords="729,222,871,229,864,332,722,320" shape="poly"/>
             </map>
 
-            <div className="richPreview hide" ref={richPreviewRef}>
-                <img src="https://d1em53b5kumigl.cloudfront.net/2019/11/Busrides-Home-Page-Image-Dark.jpg"/>
-                <div>
-                    <h2>Busrides</h2>
-                    <p>Bite sized learning about digital technology and government</p>
-                </div>
-            </div>
+            <RichPreview data={previewData} reference={richPreviewRef}/>
 
         </div>
     );

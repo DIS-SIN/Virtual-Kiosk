@@ -11,7 +11,6 @@ if (document.documentElement.lang === "fr"){
         <React.StrictMode>
             <HashRouter>
                 <Route exact path="/" component={App_FR} />
-                <Route path="/about" component={() => <App_FR aboutPage={true}/>}/>
             </HashRouter>
         </React.StrictMode>,
         document.getElementById('root')
@@ -22,7 +21,6 @@ else {
         <React.StrictMode>
             <HashRouter>
                 <Route exact path="/" component={App_EN} />
-                <Route path="/about" component={() => <App_EN aboutPage={true}/>}/>
             </HashRouter>
         </React.StrictMode>,
         document.getElementById('root')
