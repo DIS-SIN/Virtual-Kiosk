@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import { GCSplashScreen } from 'gc-tortilla';
-import kiosk from './assets/kioskEnglish.png';
 import kioskGlow from './assets/kioskGlow.png';
 import background from './assets/background.png';
 
@@ -21,7 +20,7 @@ export default function Home(props) {
 
             <div className="map">
                 <img className="kioskGlow" src={kioskGlow} useMap="#image-map"/>
-                <img src={kiosk}/>
+                <img src={props.kiosk}/>
             </div>
 
             <map name="image-map">
