@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.map {
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.map img {
+    object-fit: contain;
+}
+
+.kioskGlow {
+    position: absolute;
+    animation-name: glowPulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes glowPulse {
+    0%   {opacity: 0;}
+    50%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.mobileKiosk {
+    position: absolute;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.richPreview {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    width: 450px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 200ms;
+}
+
+.richPreview.mobile {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: content-box;
+}
+
+.richPreview img {
+    max-height: 90%;
+    max-width: 72px;
+    object-fit: contain;
+    border-radius: inherit;
+}
+
+.richPreview p {
+    flex: 1;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, p {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 3px;
+}
+
+.hide {
+    opacity: 0;
+}
