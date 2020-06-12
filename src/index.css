@@ -42,22 +42,24 @@ body {
     display: flex;
     align-items: center;
     position: relative;
+    padding: 10px;
     width: 450px;
     height: 100px;
     background-color: white;
     border-radius: 5px;
+    box-sizing: border-box;
     transition: all 200ms;
 }
 
 .richPreview img {
     max-height: 90%;
     object-fit: contain;
-    border-radius: 4px 0 0 4px;
+    border-radius: inherit;
 }
 
 .richPreview p {
     flex: 1;
-    margin: 0 10px;
+    margin-left: 10px;
 }
 
 h2, p {
