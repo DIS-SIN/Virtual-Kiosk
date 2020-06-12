@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import RichPreview from '../organisms/RichPreview';
 import kioskGlow from '../../assets/kioskGlow.png';
-import background from '../../assets/background.png';
+import background from '../../assets/background.jpg';
 
 export default function Kiosk(props) {
 

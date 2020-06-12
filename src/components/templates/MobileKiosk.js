@@ -1,6 +1,6 @@
 import React from 'react';
 import RichPreview from '../organisms/RichPreview';
-import background from '../../assets/background.png';
+import background from '../../assets/background.jpg';
 
 export default function MobileKiosk(props) {
 
