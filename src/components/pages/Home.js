@@ -16,7 +16,7 @@ export default function Home(props) {
             }}/>
             {width > 1000 ?
                 <Kiosk t={props.t} kiosk={props.kiosk}/>
-            : <MobileKiosk/>}
+            : <MobileKiosk t={props.t}/>}
         </React.Fragment>
     );
 }

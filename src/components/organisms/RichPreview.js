@@ -3,7 +3,7 @@ import React from 'react';
 export default function RichPreview(props) {
 
     return (
-        <div className="richPreview hide" ref={props.reference}>
+        <div className={`richPreview ${props.reference ? "hide" : "mobile"}`} ref={props.reference}>
             {props.data ?
                 <React.Fragment>
                     <img src={props.data.image}/>

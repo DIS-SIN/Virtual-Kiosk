@@ -38,6 +38,13 @@ body {
     100% {opacity: 0;}
 }
 
+.mobileKiosk {
+    position: absolute;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
 .richPreview {
     display: flex;
     align-items: center;
@@ -51,8 +58,16 @@ body {
     transition: all 200ms;
 }
 
+.richPreview.mobile {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: content-box;
+}
+
 .richPreview img {
     max-height: 90%;
+    max-width: 72px;
     object-fit: contain;
     border-radius: inherit;
 }
@@ -60,6 +75,10 @@ body {
 .richPreview p {
     flex: 1;
     margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 h2, p {

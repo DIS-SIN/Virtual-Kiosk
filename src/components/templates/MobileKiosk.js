@@ -1,10 +1,33 @@
 import React from 'react';
+import RichPreview from '../organisms/RichPreview';
+import background from '../../assets/background.png';
 
 export default function MobileKiosk(props) {
 
+    let projects = [props.t.busrides, props.t.csps, props.t.discoverSeries];
+
+    function renderList() {
+
+        let output = [];
+
+        projects.forEach(project => {
+            for (let item in project) {
+                item = project[item];
+
+                output.push(
+                    <a href={item.url}>
+                        <RichPreview data={item}/>
+                    </a>
+                );
+            }
+        });
+
+        return output;
+    }
+
     return (
-        <React.Fragment>
-            <h1>Hello World!</h1>
-        </React.Fragment>
+        <div className="mobileKiosk" style={{backgroundImage: `url(${background})`}}>
+            {renderList()}
+        </div>
     );
 }
