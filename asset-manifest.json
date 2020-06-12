@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Virtual-Kiosk/static/css/main.6dc5a2d0.chunk.css",
-    "main.js": "/Virtual-Kiosk/static/js/main.39b301ee.chunk.js",
-    "main.js.map": "/Virtual-Kiosk/static/js/main.39b301ee.chunk.js.map",
+    "main.js": "/Virtual-Kiosk/static/js/main.d66d0bdc.chunk.js",
+    "main.js.map": "/Virtual-Kiosk/static/js/main.d66d0bdc.chunk.js.map",
     "runtime-main.js": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js",
     "runtime-main.js.map": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js.map",
     "static/js/2.5396b442.chunk.js": "/Virtual-Kiosk/static/js/2.5396b442.chunk.js",
     "static/js/2.5396b442.chunk.js.map": "/Virtual-Kiosk/static/js/2.5396b442.chunk.js.map",
     "index.html": "/Virtual-Kiosk/index.html",
-    "precache-manifest.058d302c130655d0c250a4cbde991fe6.js": "/Virtual-Kiosk/precache-manifest.058d302c130655d0c250a4cbde991fe6.js",
+    "precache-manifest.f551e8f9c78a30d24f0d8290cbe27b33.js": "/Virtual-Kiosk/precache-manifest.f551e8f9c78a30d24f0d8290cbe27b33.js",
     "service-worker.js": "/Virtual-Kiosk/service-worker.js",
     "static/css/main.6dc5a2d0.chunk.css.map": "/Virtual-Kiosk/static/css/main.6dc5a2d0.chunk.css.map",
     "static/js/2.5396b442.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.5396b442.chunk.js.LICENSE.txt",
-    "static/media/background.png": "/Virtual-Kiosk/static/media/background.28778082.png",
+    "static/media/background.jpg": "/Virtual-Kiosk/static/media/background.e13e462a.jpg",
     "static/media/kioskEnglish.png": "/Virtual-Kiosk/static/media/kioskEnglish.88e9a6bc.png",
     "static/media/kioskFrench.png": "/Virtual-Kiosk/static/media/kioskFrench.7ec736ca.png",
     "static/media/kioskGlow.png": "/Virtual-Kiosk/static/media/kioskGlow.b332142b.png"
@@ -21,6 +21,6 @@
     "static/js/runtime-main.6e6b3e6d.js",
     "static/js/2.5396b442.chunk.js",
     "static/css/main.6dc5a2d0.chunk.css",
-    "static/js/main.39b301ee.chunk.js"
+    "static/js/main.d66d0bdc.chunk.js"
   ]
 }
