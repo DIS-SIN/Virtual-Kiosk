@@ -43,7 +43,7 @@ export default {
         tvScreen: {
             url: "https://www.youtube.com/watch?v=2XH96AQ0NGE",
             cta: "Qu’est-ce qu’être numérique. Visionnez la vidéo.",
-            image: "http://i3.ytimg.com/vi/2XH96AQ0NGE/maxresdefault.jpg"
+            image: "https://i3.ytimg.com/vi/2XH96AQ0NGE/maxresdefault.jpg"
         }
     },
     discoverSeries: {

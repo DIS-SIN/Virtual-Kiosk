@@ -43,7 +43,7 @@ export default {
         tvScreen: {
             url: "https://www.youtube.com/watch?v=TZ-TA44WWHc",
             cta: "What does it mean to be digital. Watch the video.",
-            image: "http://i3.ytimg.com/vi/TZ-TA44WWHc/maxresdefault.jpg"
+            image: "https://i3.ytimg.com/vi/TZ-TA44WWHc/maxresdefault.jpg"
         }
     },
     discoverSeries: {
