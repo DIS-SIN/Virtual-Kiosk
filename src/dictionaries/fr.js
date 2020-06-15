@@ -48,7 +48,7 @@ export default {
     },
     discoverSeries: {
         standingDoc: {
-            url: "https://drive.google.com/file/d/1EWn6RWJyTzYyt4Hd7ylk5jzx4VNHTRBz/view?usp=sharing",
+            url: "https://expo.da-an.ca/Virtual-Kiosk/static/documents/DiscoverSeries_FR.pdf",
             cta: "Apprenez au sujet de la nouvelle série Découverte",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Google_Drive_logo.png/1200px-Google_Drive_logo.png"
         }
