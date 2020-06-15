@@ -31,7 +31,7 @@ export default {
             image: "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png"
         },
         standingDoc: {
-            url: "https://drive.google.com/drive/folders/1qwtKHi3vT00onClUtAYEt_kM45V_XEJv",
+            url: "http://expo.da-an.ca/Virtual-Kiosk/static/documents/DigitalAcademy_BLF_Placemat_EN.pdf",
             cta: "What’s going on at Digital Academy? Click to find out.",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Google_Drive_logo.png/1200px-Google_Drive_logo.png"
         },
