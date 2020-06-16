@@ -10,8 +10,6 @@ export default function Home(props) {
 
     let width = useWindowWidth();
 
-    console.log(width);
-
     function showKiosk() {
         if (width !== 0){
             if (width > 1000){
