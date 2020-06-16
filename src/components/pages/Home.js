@@ -10,8 +10,18 @@ export default function Home(props) {
 
     let width = useWindowWidth();
 
+    function showKiosk() {
+        if (width !== 0){
+            if (width > 1000){
+                return <Kiosk t={props.t} kiosk={props.kiosk}/>;
+            }
+            return <MobileKiosk t={props.t}/>;
+        }
+    }
+
     return (
         <React.Fragment>
+            <div className="backgroundImage" style={{backgroundImage: `url(${background})`}}/>
             <GCSplashScreen
                 backgroundImage={background}
                 routes={{
@@ -20,9 +30,7 @@ export default function Home(props) {
                 }}
             />
             <LangSwitch t={props.t}/>
-            {width > 1000 ?
-                <Kiosk t={props.t} kiosk={props.kiosk}/>
-            : <MobileKiosk t={props.t}/>}
+            {showKiosk()}
         </React.Fragment>
     );
 }

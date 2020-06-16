@@ -12,6 +12,7 @@ export default {
     "getOppositeLocale": "en",
     "getOppositeLang": "English",
     busrides: {
+        projectName: "Trajets en bus",
         laptop: {
             url: "https://busrides-trajetsenbus.ca/fr/",
             cta: "La nuance GC rencontre le savoir-faire numérique - Visitez Trajetsenbus.ca",
@@ -23,7 +24,26 @@ export default {
             image: busridesIcon
         }
     },
+    discoverSeries: {
+        projectName: "série Découverte",
+        standingDoc: {
+            url: "https://expo.da-an.ca/Virtual-Kiosk/static/documents/DiscoverSeries_FR.pdf",
+            cta: "Apprenez au sujet de la nouvelle série Découverte",
+            image: discoverSeriesIcon
+        }
+    },
     csps: {
+        projectName: "EFPC",
+        tvScreen: {
+            url: "https://www.youtube.com/watch?v=2XH96AQ0NGE",
+            cta: "Qu’est-ce qu’être numérique. Visionnez la vidéo.",
+            image: talkDigitalNeilIcon
+        },
+        standingDoc: {
+            url: "https://expo.da-an.ca/Virtual-Kiosk/static/documents/DigitalAcademy_BLF_Placemat_FR.pdf",
+            cta: "Que se passe-t-il à l’Académie du numérique? Cliquez pour le savoir.",
+            image: placematIcon
+        },
         computerScreen: {
             url: "https://www.csps-efpc.gc.ca/digital-academy/index-fra.aspx",
             cta: "Nous aidons les fonctionnaires à devenir numériques. Découvrez l’Académie du numérique.",
@@ -39,27 +59,10 @@ export default {
             cta: "Contactez-nous",
             image: emailIcon
         },
-        standingDoc: {
-            url: "https://expo.da-an.ca/Virtual-Kiosk/static/documents/DigitalAcademy_BLF_Placemat_FR.pdf",
-            cta: "Que se passe-t-il à l’Académie du numérique? Cliquez pour le savoir.",
-            image: placematIcon
-        },
         twitterIcon: {
             url: "https://twitter.com/AcademieNumCAN",
             cta: "Suivez-nous sur Twitter.",
             image: twitterIcon
-        },
-        tvScreen: {
-            url: "https://www.youtube.com/watch?v=2XH96AQ0NGE",
-            cta: "Qu’est-ce qu’être numérique. Visionnez la vidéo.",
-            image: talkDigitalNeilIcon
-        }
-    },
-    discoverSeries: {
-        standingDoc: {
-            url: "https://expo.da-an.ca/Virtual-Kiosk/static/documents/DiscoverSeries_FR.pdf",
-            cta: "Apprenez au sujet de la nouvelle série Découverte",
-            image: discoverSeriesIcon
         }
     }
 }
