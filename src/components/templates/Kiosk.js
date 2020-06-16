@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import RichPreview from '../organisms/RichPreview';
 import kioskGlow from '../../assets/kioskGlow.png';
-import background from '../../assets/background.jpg';
 
 export default function Kiosk(props) {
 
@@ -17,7 +16,7 @@ export default function Kiosk(props) {
     }
 
     return (
-        <div className="home" style={{backgroundImage: `url(${background})`}}>
+        <div className="home">
 
             <div className="map">
                 <img className="kioskGlow" src={kioskGlow} useMap="#image-map"/>

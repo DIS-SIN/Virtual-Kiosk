@@ -12,6 +12,7 @@ export default function Home(props) {
 
     return (
         <React.Fragment>
+            <div className="backgroundImage" style={{backgroundImage: `url(${background})`}}/>
             <GCSplashScreen
                 backgroundImage={background}
                 routes={{
