@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/Virtual-Kiosk/static/css/main.6dc5a2d0.chunk.css",
-    "main.js": "/Virtual-Kiosk/static/js/main.25d620e6.chunk.js",
-    "main.js.map": "/Virtual-Kiosk/static/js/main.25d620e6.chunk.js.map",
+    "main.css": "/Virtual-Kiosk/static/css/main.2438622b.chunk.css",
+    "main.js": "/Virtual-Kiosk/static/js/main.c55916b0.chunk.js",
+    "main.js.map": "/Virtual-Kiosk/static/js/main.c55916b0.chunk.js.map",
     "runtime-main.js": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js",
     "runtime-main.js.map": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js.map",
-    "static/js/2.5396b442.chunk.js": "/Virtual-Kiosk/static/js/2.5396b442.chunk.js",
-    "static/js/2.5396b442.chunk.js.map": "/Virtual-Kiosk/static/js/2.5396b442.chunk.js.map",
+    "static/js/2.482b6511.chunk.js": "/Virtual-Kiosk/static/js/2.482b6511.chunk.js",
+    "static/js/2.482b6511.chunk.js.map": "/Virtual-Kiosk/static/js/2.482b6511.chunk.js.map",
     "index.html": "/Virtual-Kiosk/index.html",
-    "precache-manifest.ba120761867374db17297a35e29cd1c2.js": "/Virtual-Kiosk/precache-manifest.ba120761867374db17297a35e29cd1c2.js",
+    "precache-manifest.212534244cde4dbae1dfcf0417041329.js": "/Virtual-Kiosk/precache-manifest.212534244cde4dbae1dfcf0417041329.js",
     "service-worker.js": "/Virtual-Kiosk/service-worker.js",
-    "static/css/main.6dc5a2d0.chunk.css.map": "/Virtual-Kiosk/static/css/main.6dc5a2d0.chunk.css.map",
-    "static/js/2.5396b442.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.5396b442.chunk.js.LICENSE.txt",
+    "static/css/main.2438622b.chunk.css.map": "/Virtual-Kiosk/static/css/main.2438622b.chunk.css.map",
+    "static/js/2.482b6511.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.482b6511.chunk.js.LICENSE.txt",
     "static/media/background.jpg": "/Virtual-Kiosk/static/media/background.85ec81c9.jpg",
     "static/media/kioskEnglish.png": "/Virtual-Kiosk/static/media/kioskEnglish.cce89ba4.png",
     "static/media/kioskFrench.png": "/Virtual-Kiosk/static/media/kioskFrench.7404e5d2.png",
-    "static/media/kioskGlow.png": "/Virtual-Kiosk/static/media/kioskGlow.304fa874.png"
+    "static/media/kioskGlow.png": "/Virtual-Kiosk/static/media/kioskGlow.304fa874.png",
+    "static/media/placemat.png": "/Virtual-Kiosk/static/media/placemat.3c771a01.png",
+    "static/media/surveyMonkey.png": "/Virtual-Kiosk/static/media/surveyMonkey.fd6c2c9a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6e6b3e6d.js",
-    "static/js/2.5396b442.chunk.js",
-    "static/css/main.6dc5a2d0.chunk.css",
-    "static/js/main.25d620e6.chunk.js"
+    "static/js/2.482b6511.chunk.js",
+    "static/css/main.2438622b.chunk.css",
+    "static/js/main.c55916b0.chunk.js"
   ]
 }

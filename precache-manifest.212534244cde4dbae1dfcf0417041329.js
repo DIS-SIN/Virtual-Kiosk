@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "538433f834504479b819c028d1b357bb",
+    "revision": "83424f7a42ce77466aa5d575e2cef10e",
     "url": "/Virtual-Kiosk/index.html"
   },
   {
-    "revision": "2d65ae262bdd187cd7ba",
-    "url": "/Virtual-Kiosk/static/css/main.6dc5a2d0.chunk.css"
+    "revision": "44feebde3f4ac8c76333",
+    "url": "/Virtual-Kiosk/static/css/main.2438622b.chunk.css"
   },
   {
-    "revision": "c49f00fa85cdff7cc839",
-    "url": "/Virtual-Kiosk/static/js/2.5396b442.chunk.js"
+    "revision": "26622cff80e53492ad8e",
+    "url": "/Virtual-Kiosk/static/js/2.482b6511.chunk.js"
   },
   {
     "revision": "aef5919665ce250bc0bbfd2f829ad76b",
-    "url": "/Virtual-Kiosk/static/js/2.5396b442.chunk.js.LICENSE.txt"
+    "url": "/Virtual-Kiosk/static/js/2.482b6511.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d65ae262bdd187cd7ba",
-    "url": "/Virtual-Kiosk/static/js/main.25d620e6.chunk.js"
+    "revision": "44feebde3f4ac8c76333",
+    "url": "/Virtual-Kiosk/static/js/main.c55916b0.chunk.js"
   },
   {
     "revision": "edb8b3069191b5e69067",
@@ -38,5 +38,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "304fa874d8351b951889120162999ccd",
     "url": "/Virtual-Kiosk/static/media/kioskGlow.304fa874.png"
+  },
+  {
+    "revision": "3c771a016d07588ed2a9409d435a1a90",
+    "url": "/Virtual-Kiosk/static/media/placemat.3c771a01.png"
+  },
+  {
+    "revision": "fd6c2c9a40d7bb4baa5be59157dda4a6",
+    "url": "/Virtual-Kiosk/static/media/surveyMonkey.fd6c2c9a.png"
   }
 ]);
