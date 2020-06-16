@@ -4,6 +4,7 @@ import { GCSplashScreen } from 'gc-tortilla';
 import LangSwitch from '../molecules/LangSwitch';
 import Kiosk from '../templates/Kiosk';
 import MobileKiosk from '../templates/MobileKiosk';
+import background from '../../assets/background.jpg';
 
 export default function Home(props) {
 
@@ -11,10 +12,13 @@ export default function Home(props) {
 
     return (
         <React.Fragment>
-            <GCSplashScreen routes={{
-                english: "/Virtual-Kiosk",
-                french: "/Virtual-Kiosk/fr"
-            }}/>
+            <GCSplashScreen
+                backgroundImage={background}
+                routes={{
+                    english: "/Virtual-Kiosk",
+                    french: "/Virtual-Kiosk/fr"
+                }}
+            />
             <LangSwitch t={props.t}/>
             {width > 1000 ?
                 <Kiosk t={props.t} kiosk={props.kiosk}/>
