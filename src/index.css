@@ -35,10 +35,12 @@ body {
 .map {
     width: 1000px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .map img {
     object-fit: contain;
+    max-width: 100%;
 }
 
 .kioskGlow {
