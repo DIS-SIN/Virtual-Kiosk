@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18c09c55f69db9f58d5f5f3299538804",
+    "revision": "3bab760d413c3487dcef9dbed71cc821",
     "url": "/Virtual-Kiosk/index.html"
   },
   {
-    "revision": "b8a9567cab7f7ef40eb3",
-    "url": "/Virtual-Kiosk/static/css/main.37aeafd0.chunk.css"
+    "revision": "a8d97a4cde2ff71ce254",
+    "url": "/Virtual-Kiosk/static/css/main.9c673440.chunk.css"
   },
   {
-    "revision": "a998045c9f8f1a975a32",
-    "url": "/Virtual-Kiosk/static/js/2.cd3d88ca.chunk.js"
+    "revision": "96d54c584bbbc8c397e9",
+    "url": "/Virtual-Kiosk/static/js/2.8055e9d5.chunk.js"
   },
   {
     "revision": "aef5919665ce250bc0bbfd2f829ad76b",
-    "url": "/Virtual-Kiosk/static/js/2.cd3d88ca.chunk.js.LICENSE.txt"
+    "url": "/Virtual-Kiosk/static/js/2.8055e9d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8a9567cab7f7ef40eb3",
-    "url": "/Virtual-Kiosk/static/js/main.3df2f396.chunk.js"
+    "revision": "a8d97a4cde2ff71ce254",
+    "url": "/Virtual-Kiosk/static/js/main.5f2f636b.chunk.js"
   },
   {
-    "revision": "71acf60034cfbd5c9dec",
-    "url": "/Virtual-Kiosk/static/js/runtime-main.98eec0a3.js"
+    "revision": "edb8b3069191b5e69067",
+    "url": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js"
   },
   {
     "revision": "85ec81c979b302af1e602e299f7cf8f6",
