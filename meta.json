@@ -1,16 +1,16 @@
 {
     "en": {
         "lang": "en",
-        "title": "English site title",
-        "description": "English site description",
-        "url": "English site homepage url",
-        "image": "Path to English thumbnail image (put in public folder)"
+        "title": "CSPS Digital Academy Expo (PoC)",
+        "description": "Welcome to the CSPS Digital Academy Expo! A proof of concept designed to test the idea of a virtual kiosk.",
+        "url": "https://expo.da-an.ca/Virtual-Kiosk/#/",
+        "image": "https://expo.da-an.ca/english-thumbnail.png"
     },
     "fr": {
         "lang": "fr",
-        "title": "French site title",
-        "description": "French site description",
-        "url": "French site homepage url",
-        "image": "Path to French thumbnail image (put in public folder)"
+        "title": "Expo de l'Académie du numérique de l'ÉFPC (PdC)",
+        "description": "Bienvenue à l'Expo de l'Académie du numérique de l'ÉFPC! Une preuve de concept conçue pour tester l'idée d'un kiosque virtuel.",
+        "url": "https://expo.da-an.ca/Virtual-Kiosk/fr/#/",
+        "image": "https://expo.da-an.ca/french-thumbnail.png"
     }
 }
