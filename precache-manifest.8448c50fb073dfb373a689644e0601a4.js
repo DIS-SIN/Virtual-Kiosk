@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6460b85565168261a62b8dc16ddeef51",
+    "revision": "3a3d9e5b089f2e530444c5eebe9dd5b4",
     "url": "/Virtual-Kiosk/index.html"
   },
   {
-    "revision": "30c34c18461286d5c05f",
-    "url": "/Virtual-Kiosk/static/css/main.4c44d4d9.chunk.css"
+    "revision": "8ef60cbe792bb214cc83",
+    "url": "/Virtual-Kiosk/static/css/main.8df37318.chunk.css"
   },
   {
     "revision": "051a438de76a36b7b626",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Virtual-Kiosk/static/js/2.8a94ccd0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30c34c18461286d5c05f",
-    "url": "/Virtual-Kiosk/static/js/main.3a2d5c04.chunk.js"
+    "revision": "8ef60cbe792bb214cc83",
+    "url": "/Virtual-Kiosk/static/js/main.9669c0c4.chunk.js"
   },
   {
     "revision": "edb8b3069191b5e69067",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Virtual-Kiosk/static/media/background.85ec81c9.jpg"
   },
   {
-    "revision": "d2d7a15cb68f80616df7d939000f961f",
-    "url": "/Virtual-Kiosk/static/media/kioskEnglish.d2d7a15c.png"
+    "revision": "285acf116441759e73e33f821436ed9c",
+    "url": "/Virtual-Kiosk/static/media/kioskEnglish.285acf11.png"
   },
   {
     "revision": "dbdfc8cf8291a5b39d4123d2c875e4e3",
