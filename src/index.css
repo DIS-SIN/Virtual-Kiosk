@@ -54,6 +54,15 @@ body {
     padding-bottom: 50px;
 }
 
+.mobileKiosk h2 {
+    color: white;
+    border-bottom: solid white;
+    border-radius: 2px;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 .richPreview {
     display: flex;
     align-items: center;

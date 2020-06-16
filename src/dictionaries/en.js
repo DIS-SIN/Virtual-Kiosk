@@ -12,6 +12,7 @@ export default {
     "getOppositeLocale": "fr",
     "getOppositeLang": "Français",
     busrides: {
+        projectName: "Busrides",
         laptop: {
             url: "https://busrides-trajetsenbus.ca/",
             cta: "GC nuance meets digital know-how - Visit Busrides.ca",
@@ -23,7 +24,26 @@ export default {
             image: busridesIcon
         }
     },
+    discoverSeries: {
+        projectName: "Discover Series",
+        standingDoc: {
+            url: "https://expo.da-an.ca/Virtual-Kiosk/static/documents/DiscoverSeries_EN.pdf",
+            cta: "Learn about the new Discover Series",
+            image: discoverSeriesIcon
+        }
+    },
     csps: {
+        projectName: "CSPS",
+        tvScreen: {
+            url: "https://www.youtube.com/watch?v=TZ-TA44WWHc",
+            cta: "What does it mean to be digital. Watch the video.",
+            image: talkDigitalNeilIcon
+        },
+        standingDoc: {
+            url: "http://expo.da-an.ca/Virtual-Kiosk/static/documents/DigitalAcademy_BLF_Placemat_EN.pdf",
+            cta: "What’s going on at Digital Academy? Click to find out.",
+            image: placematIcon
+        },
         computerScreen: {
             url: "https://www.csps-efpc.gc.ca/digital-academy/index-eng.aspx",
             cta: "We help public servants become digital. Discover Digital Academy.",
@@ -39,27 +59,10 @@ export default {
             cta: "Contact us",
             image: emailIcon
         },
-        standingDoc: {
-            url: "http://expo.da-an.ca/Virtual-Kiosk/static/documents/DigitalAcademy_BLF_Placemat_EN.pdf",
-            cta: "What’s going on at Digital Academy? Click to find out.",
-            image: placematIcon
-        },
         twitterIcon: {
             url: "https://twitter.com/DigiAcademyCAN",
             cta: "Follow us on Twitter.",
             image: twitterIcon
-        },
-        tvScreen: {
-            url: "https://www.youtube.com/watch?v=TZ-TA44WWHc",
-            cta: "What does it mean to be digital. Watch the video.",
-            image: talkDigitalNeilIcon
-        }
-    },
-    discoverSeries: {
-        standingDoc: {
-            url: "https://expo.da-an.ca/Virtual-Kiosk/static/documents/DiscoverSeries_EN.pdf",
-            cta: "Learn about the new Discover Series",
-            image: discoverSeriesIcon
         }
     }
 }

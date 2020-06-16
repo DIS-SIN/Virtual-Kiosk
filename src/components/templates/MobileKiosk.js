@@ -4,21 +4,31 @@ import background from '../../assets/background.jpg';
 
 export default function MobileKiosk(props) {
 
-    let projects = [props.t.busrides, props.t.csps, props.t.discoverSeries];
+    let projects = [props.t.busrides, props.t.discoverSeries, props.t.csps];
 
     function renderList() {
 
         let output = [];
 
         projects.forEach(project => {
+
+            output.push(
+                <h2>{project.projectName}</h2>
+            );
+
             for (let item in project) {
+
                 item = project[item];
 
-                output.push(
-                    <a href={item.url}>
-                        <RichPreview data={item}/>
-                    </a>
-                );
+                if (typeof(item) === "object"){
+
+                    output.push(
+                        <a href={item.url}>
+                            <RichPreview data={item}/>
+                        </a>
+                    );
+
+                }
             }
         });
 
