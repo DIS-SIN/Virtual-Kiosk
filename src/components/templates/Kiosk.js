@@ -21,12 +21,11 @@ useEffect(() => {
     glowRef.current.hidden = false;
     kioskRef.current.hidden = false;
     ariaRef.current.hidden = true;
-
   } 
 }, [count]);
     return (
         <div className="home" aria-busy={(count<2)}>
-          <span className={"sr-only"} ref={ariaRef}>Loading Content</span>
+          <span className={"sr-only"} ref={ariaRef}>{props.t.getLocale === "en" ? "Loading Content" : "Chargement du contenu"}</span>
             <RingLoader
               size={150}
               color={"#a630a6"}
