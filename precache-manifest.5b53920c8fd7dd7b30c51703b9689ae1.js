@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2ddabaac74282faa4ee9ccda901a0f9",
+    "revision": "ee0d4de7ccaf845cdca469483422e42b",
     "url": "/Virtual-Kiosk/index.html"
   },
   {
-    "revision": "4b11e9810d03c0815638",
+    "revision": "99715059dbb2b45d3d34",
     "url": "/Virtual-Kiosk/static/css/main.5e09d8db.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Virtual-Kiosk/static/js/2.77f29a54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b11e9810d03c0815638",
-    "url": "/Virtual-Kiosk/static/js/main.1fd0e6bc.chunk.js"
+    "revision": "99715059dbb2b45d3d34",
+    "url": "/Virtual-Kiosk/static/js/main.a64898dd.chunk.js"
   },
   {
     "revision": "71acf60034cfbd5c9dec",
     "url": "/Virtual-Kiosk/static/js/runtime-main.98eec0a3.js"
-  },
-  {
-    "revision": "fa96b56e4169f6d90989ac031e87b169",
-    "url": "/Virtual-Kiosk/static/media/DicoverSeries_EN.fa96b56e.pdf"
   },
   {
     "revision": "ee3b33cb14832544c60fdd43994c0c56",
@@ -36,8 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_FR.634e2e7b.png"
   },
   {
-    "revision": "e97cb618295bef29857fed4eab5d5cad",
-    "url": "/Virtual-Kiosk/static/media/DiscoverSeries_FR.e97cb618.pdf"
+    "revision": "7deb16e4937a4d097542552d95c1f6ca",
+    "url": "/Virtual-Kiosk/static/media/DiscoverSeries_EN.7deb16e4.pdf"
+  },
+  {
+    "revision": "7deb16e4937a4d097542552d95c1f6ca",
+    "url": "/Virtual-Kiosk/static/media/DiscoverSeries_FR.7deb16e4.pdf"
   },
   {
     "revision": "85ec81c979b302af1e602e299f7cf8f6",
