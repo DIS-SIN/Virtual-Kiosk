@@ -1,27 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c215d3955f4d557c99bd87549d87910",
+    "revision": "c2ddabaac74282faa4ee9ccda901a0f9",
     "url": "/Virtual-Kiosk/index.html"
   },
   {
-    "revision": "6bfed3bf4758bf5d7896",
-    "url": "/Virtual-Kiosk/static/css/main.7cafa64a.chunk.css"
+    "revision": "4b11e9810d03c0815638",
+    "url": "/Virtual-Kiosk/static/css/main.5e09d8db.chunk.css"
   },
   {
-    "revision": "79246856dec3564dfc18",
-    "url": "/Virtual-Kiosk/static/js/2.181dee2c.chunk.js"
+    "revision": "ed1f921d95da5ef462d5",
+    "url": "/Virtual-Kiosk/static/js/2.77f29a54.chunk.js"
   },
   {
     "revision": "aef5919665ce250bc0bbfd2f829ad76b",
-    "url": "/Virtual-Kiosk/static/js/2.181dee2c.chunk.js.LICENSE.txt"
+    "url": "/Virtual-Kiosk/static/js/2.77f29a54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6bfed3bf4758bf5d7896",
-    "url": "/Virtual-Kiosk/static/js/main.32808ba6.chunk.js"
+    "revision": "4b11e9810d03c0815638",
+    "url": "/Virtual-Kiosk/static/js/main.1fd0e6bc.chunk.js"
   },
   {
     "revision": "71acf60034cfbd5c9dec",
     "url": "/Virtual-Kiosk/static/js/runtime-main.98eec0a3.js"
+  },
+  {
+    "revision": "fa96b56e4169f6d90989ac031e87b169",
+    "url": "/Virtual-Kiosk/static/media/DicoverSeries_EN.fa96b56e.pdf"
+  },
+  {
+    "revision": "ee3b33cb14832544c60fdd43994c0c56",
+    "url": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_EN.ee3b33cb.png"
+  },
+  {
+    "revision": "634e2e7bede1581917f5dd1122b8f06f",
+    "url": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_FR.634e2e7b.png"
+  },
+  {
+    "revision": "e97cb618295bef29857fed4eab5d5cad",
+    "url": "/Virtual-Kiosk/static/media/DiscoverSeries_FR.e97cb618.pdf"
   },
   {
     "revision": "85ec81c979b302af1e602e299f7cf8f6",
