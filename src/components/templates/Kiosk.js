@@ -33,8 +33,8 @@ useEffect(() => {
               loading={(count<2)}
             />          
           <div className="map">
-              <img className="kioskGlow" src={kioskGlow} useMap="#image-map" onLoad={() => imageLoaded()} hidden ref={glowRef}/>
-              <img src={props.kiosk} hidden ref={kioskRef} onLoad={() => imageLoaded()}/>
+              <img className="kioskGlow" aria-hidden={true} src={kioskGlow} useMap="#image-map" onLoad={() => imageLoaded()} hidden ref={glowRef}/>
+              <img src={props.kiosk} alt="Virtual Kiosk" hidden ref={kioskRef} onLoad={() => imageLoaded()}/>
           </div>
           <ImageMap t={props.t} />
         </div>
