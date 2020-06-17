@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Virtual-Kiosk/static/css/main.8df37318.chunk.css",
-    "main.js": "/Virtual-Kiosk/static/js/main.f52cf169.chunk.js",
-    "main.js.map": "/Virtual-Kiosk/static/js/main.f52cf169.chunk.js.map",
-    "runtime-main.js": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js",
-    "runtime-main.js.map": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js.map",
-    "static/js/2.b939fe69.chunk.js": "/Virtual-Kiosk/static/js/2.b939fe69.chunk.js",
-    "static/js/2.b939fe69.chunk.js.map": "/Virtual-Kiosk/static/js/2.b939fe69.chunk.js.map",
+    "main.css": "/Virtual-Kiosk/static/css/main.7cafa64a.chunk.css",
+    "main.js": "/Virtual-Kiosk/static/js/main.7280c9a7.chunk.js",
+    "main.js.map": "/Virtual-Kiosk/static/js/main.7280c9a7.chunk.js.map",
+    "runtime-main.js": "/Virtual-Kiosk/static/js/runtime-main.98eec0a3.js",
+    "runtime-main.js.map": "/Virtual-Kiosk/static/js/runtime-main.98eec0a3.js.map",
+    "static/js/2.181dee2c.chunk.js": "/Virtual-Kiosk/static/js/2.181dee2c.chunk.js",
+    "static/js/2.181dee2c.chunk.js.map": "/Virtual-Kiosk/static/js/2.181dee2c.chunk.js.map",
     "index.html": "/Virtual-Kiosk/index.html",
-    "precache-manifest.2b5c2158d375bbb4f4efc36e20afcf79.js": "/Virtual-Kiosk/precache-manifest.2b5c2158d375bbb4f4efc36e20afcf79.js",
+    "precache-manifest.a471b4fdd5b91c5f4ad63767ac3002fd.js": "/Virtual-Kiosk/precache-manifest.a471b4fdd5b91c5f4ad63767ac3002fd.js",
     "service-worker.js": "/Virtual-Kiosk/service-worker.js",
-    "static/css/main.8df37318.chunk.css.map": "/Virtual-Kiosk/static/css/main.8df37318.chunk.css.map",
-    "static/js/2.b939fe69.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.b939fe69.chunk.js.LICENSE.txt",
+    "static/css/main.7cafa64a.chunk.css.map": "/Virtual-Kiosk/static/css/main.7cafa64a.chunk.css.map",
+    "static/js/2.181dee2c.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.181dee2c.chunk.js.LICENSE.txt",
     "static/media/background.jpg": "/Virtual-Kiosk/static/media/background.85ec81c9.jpg",
     "static/media/kioskEnglish.png": "/Virtual-Kiosk/static/media/kioskEnglish.285acf11.png",
     "static/media/kioskFrench.png": "/Virtual-Kiosk/static/media/kioskFrench.c3577907.png",
@@ -20,9 +20,9 @@
     "static/media/surveyMonkey.png": "/Virtual-Kiosk/static/media/surveyMonkey.fd6c2c9a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e6b3e6d.js",
-    "static/js/2.b939fe69.chunk.js",
-    "static/css/main.8df37318.chunk.css",
-    "static/js/main.f52cf169.chunk.js"
+    "static/js/runtime-main.98eec0a3.js",
+    "static/js/2.181dee2c.chunk.js",
+    "static/css/main.7cafa64a.chunk.css",
+    "static/js/main.7280c9a7.chunk.js"
   ]
 }
