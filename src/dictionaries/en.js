@@ -6,7 +6,7 @@ import surveyMonkeyIcon from '../assets/icons/surveyMonkey.png';
 import placematIcon from '../assets/icons/placemat.png';
 import talkDigitalNeilIcon from '../assets/icons/talkDigitalNeil.jpg';
 import twitterIcon from '../assets/icons/twitter.png';
-import discoverSeries from '../assets/documents/DicoverSeries_EN.pdf';
+import discoverSeries from '../assets/documents/DiscoverSeries_EN.pdf';
 import placematBLF from '../assets/documents/Digital_Academy_BLF_Placemat_EN.png';
 
 export default {
