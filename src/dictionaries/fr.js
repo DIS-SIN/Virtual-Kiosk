@@ -27,7 +27,7 @@ export default {
         }
     },
     discoverSeries: {
-        projectName: "série Découverte",
+        projectName: "Série découverte",
         standingDoc: {
             url: discoverSeries,
             cta: "Apprenez au sujet de la nouvelle série Découverte",
@@ -35,7 +35,7 @@ export default {
         }
     },
     csps: {
-        projectName: "EFPC",
+        projectName: "ÉFPC",
         tvScreen: {
             url: "https://www.youtube.com/watch?v=2XH96AQ0NGE",
             cta: "Qu’est-ce qu’être numérique. Visionnez la vidéo.",
