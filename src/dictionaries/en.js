@@ -6,6 +6,8 @@ import surveyMonkeyIcon from '../assets/icons/surveyMonkey.png';
 import placematIcon from '../assets/icons/placemat.png';
 import talkDigitalNeilIcon from '../assets/icons/talkDigitalNeil.jpg';
 import twitterIcon from '../assets/icons/twitter.png';
+import discoverSeries from '../assets/documents/DicoverSeries_EN.pdf';
+import placematBLF from '../assets/documents/Digital_Academy_BLF_Placemat_EN.png';
 
 export default {
     "getLocale": "en",
@@ -27,7 +29,7 @@ export default {
     discoverSeries: {
         projectName: "Discover Series",
         standingDoc: {
-            url: "https://expo.da-an.ca/Virtual-Kiosk/static/documents/DiscoverSeries_EN.pdf",
+            url: discoverSeries,
             cta: "Learn about the new Discover Series",
             image: discoverSeriesIcon
         }
@@ -40,7 +42,7 @@ export default {
             image: talkDigitalNeilIcon
         },
         standingDoc: {
-            url: "http://expo.da-an.ca/Virtual-Kiosk/static/documents/DigitalAcademy_BLF_Placemat_EN.pdf",
+            url: placematBLF,
             cta: "What’s going on at Digital Academy? Click to find out.",
             image: placematIcon
         },
