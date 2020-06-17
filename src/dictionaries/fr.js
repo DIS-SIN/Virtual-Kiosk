@@ -7,7 +7,7 @@ import placematIcon from '../assets/icons/placemat.png';
 import talkDigitalNeilIcon from '../assets/icons/talkDigitalNeil.jpg';
 import twitterIcon from '../assets/icons/twitter.png';
 import discoverSeries from '../assets/documents/DiscoverSeries_FR.pdf';
-import placematBLF from '../assets/documents/Digital_Academy_BLF_Placemat_FR.png'
+import placematBLF from '../assets/documents/Digital_Academy_BLF_Placemat_FR.pdf'
 
 export default {
     "getLocale": "fr",
