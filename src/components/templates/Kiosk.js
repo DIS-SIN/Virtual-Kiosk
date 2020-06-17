@@ -1,4 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { css } from "@emotion/core";
+import RingLoader from "react-spinners/RingLoader";
 import kioskGlow from '../../assets/kioskGlow.png';
 import ImageMap from '../molecules/ImageMap';
 
@@ -21,6 +23,11 @@ useEffect(() => {
 }, [count]);
     return (
         <div className="home">
+          <RingLoader
+            size={150}
+            color={"#a630a6"}
+            loading={(count<2)}
+          />
             <div className="map">
                 <img className="kioskGlow" src={kioskGlow} useMap="#image-map" onLoad={() => imageLoaded()} hidden ref={glowRef}/>
                 <img src={props.kiosk} hidden ref={kioskRef} onLoad={() => imageLoaded()}/>
