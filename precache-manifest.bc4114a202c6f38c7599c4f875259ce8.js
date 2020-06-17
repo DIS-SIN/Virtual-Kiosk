@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85dcfd632d814fbde32a579815a99f7d",
+    "revision": "1c215d3955f4d557c99bd87549d87910",
     "url": "/Virtual-Kiosk/index.html"
   },
   {
-    "revision": "8bc3a592671fd8fa7461",
+    "revision": "6bfed3bf4758bf5d7896",
     "url": "/Virtual-Kiosk/static/css/main.7cafa64a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Virtual-Kiosk/static/js/2.181dee2c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8bc3a592671fd8fa7461",
-    "url": "/Virtual-Kiosk/static/js/main.7280c9a7.chunk.js"
+    "revision": "6bfed3bf4758bf5d7896",
+    "url": "/Virtual-Kiosk/static/js/main.32808ba6.chunk.js"
   },
   {
     "revision": "71acf60034cfbd5c9dec",
