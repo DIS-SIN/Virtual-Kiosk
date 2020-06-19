@@ -3,11 +3,9 @@ import cspsIcon from '../assets/icons/csps.png';
 import discoverSeriesIcon from '../assets/icons/discoverSeries.png';
 import emailIcon from '../assets/icons/email.png';
 import surveyMonkeyIcon from '../assets/icons/surveyMonkey.png';
-import placematIcon from '../assets/icons/placemat.png';
 import talkDigitalNeilIcon from '../assets/icons/talkDigitalNeil.jpg';
 import twitterIcon from '../assets/icons/twitter.png';
 import discoverSeries from '../assets/documents/DiscoverSeries_FR.pdf';
-import placematBLF from '../assets/documents/Digital_Academy_BLF_Placemat_FR.pdf'
 
 export default {
     "getLocale": "fr",
@@ -42,9 +40,9 @@ export default {
             image: talkDigitalNeilIcon
         },
         standingDoc: {
-            url: placematBLF,
-            cta: "Que se passe-t-il à l’Académie du numérique? Cliquez pour le savoir.",
-            image: placematIcon
+            url: "https://learn-apprendre.ca/course/view.php?id=61",
+            cta: "Travail virtuel: Conseils pratiques pour la transition vers le télétravail",
+            image: cspsIcon
         },
         computerScreen: {
             url: "https://www.csps-efpc.gc.ca/digital-academy/index-fra.aspx",
