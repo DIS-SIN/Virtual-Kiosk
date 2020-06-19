@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Virtual-Kiosk/static/css/main.6bb526b6.chunk.css",
-    "main.js": "/Virtual-Kiosk/static/js/main.07a3e5e3.chunk.js",
-    "main.js.map": "/Virtual-Kiosk/static/js/main.07a3e5e3.chunk.js.map",
+    "main.js": "/Virtual-Kiosk/static/js/main.7523be03.chunk.js",
+    "main.js.map": "/Virtual-Kiosk/static/js/main.7523be03.chunk.js.map",
     "runtime-main.js": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js",
     "runtime-main.js.map": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js.map",
     "static/js/2.8d896b64.chunk.js": "/Virtual-Kiosk/static/js/2.8d896b64.chunk.js",
     "static/js/2.8d896b64.chunk.js.map": "/Virtual-Kiosk/static/js/2.8d896b64.chunk.js.map",
     "index.html": "/Virtual-Kiosk/index.html",
-    "precache-manifest.059b522fa463c5f44315f910a75aba65.js": "/Virtual-Kiosk/precache-manifest.059b522fa463c5f44315f910a75aba65.js",
+    "precache-manifest.8731d3d9d5e04855d15e9902d0035146.js": "/Virtual-Kiosk/precache-manifest.8731d3d9d5e04855d15e9902d0035146.js",
     "service-worker.js": "/Virtual-Kiosk/service-worker.js",
     "static/css/main.6bb526b6.chunk.css.map": "/Virtual-Kiosk/static/css/main.6bb526b6.chunk.css.map",
     "static/js/2.8d896b64.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.8d896b64.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.6e6b3e6d.js",
     "static/js/2.8d896b64.chunk.js",
     "static/css/main.6bb526b6.chunk.css",
-    "static/js/main.07a3e5e3.chunk.js"
+    "static/js/main.7523be03.chunk.js"
   ]
 }
