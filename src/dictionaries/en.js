@@ -46,8 +46,8 @@ export default {
             image: cspsIcon
         },
         computerScreen: {
-            url: "https://www.csps-efpc.gc.ca/digital-academy/index-eng.aspx",
-            cta: "We help public servants become digital. Discover Digital Academy.",
+            url: "https://www.csps-efpc.gc.ca/About_us/Business_lines/transferableskills-eng.aspx",
+            cta: "We help create a public service that is kinetic, connected and collaborative.",
             image: cspsIcon
         },
         envelope: {
