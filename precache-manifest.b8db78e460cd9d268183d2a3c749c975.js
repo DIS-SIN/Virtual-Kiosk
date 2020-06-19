@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "761218ff2b7e3675e99be019e9a7aa39",
+    "revision": "e207fd3f24d79978daa1449c8bafae80",
     "url": "/Virtual-Kiosk/index.html"
   },
   {
-    "revision": "a56467f8f378ca98ebef",
-    "url": "/Virtual-Kiosk/static/css/main.5e09d8db.chunk.css"
+    "revision": "cfce02c40002f0d332d5",
+    "url": "/Virtual-Kiosk/static/css/main.26e9f8bb.chunk.css"
   },
   {
-    "revision": "ed1f921d95da5ef462d5",
-    "url": "/Virtual-Kiosk/static/js/2.77f29a54.chunk.js"
+    "revision": "892f9bb6aabb7db31fad",
+    "url": "/Virtual-Kiosk/static/js/2.d274f7b7.chunk.js"
   },
   {
     "revision": "aef5919665ce250bc0bbfd2f829ad76b",
-    "url": "/Virtual-Kiosk/static/js/2.77f29a54.chunk.js.LICENSE.txt"
+    "url": "/Virtual-Kiosk/static/js/2.d274f7b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a56467f8f378ca98ebef",
-    "url": "/Virtual-Kiosk/static/js/main.5da909bb.chunk.js"
+    "revision": "cfce02c40002f0d332d5",
+    "url": "/Virtual-Kiosk/static/js/main.20a75ef0.chunk.js"
   },
   {
-    "revision": "71acf60034cfbd5c9dec",
-    "url": "/Virtual-Kiosk/static/js/runtime-main.98eec0a3.js"
+    "revision": "edb8b3069191b5e69067",
+    "url": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js"
   },
   {
-    "revision": "b219350154c033cfb5e875547d4eeb64",
-    "url": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_EN.b2193501.pdf"
+    "revision": "ee3b33cb14832544c60fdd43994c0c56",
+    "url": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_EN.ee3b33cb.png"
   },
   {
-    "revision": "466d429784b54f54f8735246ce4c1a35",
-    "url": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_FR.466d4297.pdf"
+    "revision": "634e2e7bede1581917f5dd1122b8f06f",
+    "url": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_FR.634e2e7b.png"
   },
   {
     "revision": "7deb16e4937a4d097542552d95c1f6ca",
     "url": "/Virtual-Kiosk/static/media/DiscoverSeries_EN.7deb16e4.pdf"
   },
   {
-    "revision": "0516722062925d76fd75e451687e6ac2",
-    "url": "/Virtual-Kiosk/static/media/DiscoverSeries_FR.05167220.pdf"
+    "revision": "7deb16e4937a4d097542552d95c1f6ca",
+    "url": "/Virtual-Kiosk/static/media/DiscoverSeries_FR.7deb16e4.pdf"
   },
   {
     "revision": "85ec81c979b302af1e602e299f7cf8f6",
