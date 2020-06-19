@@ -23,12 +23,19 @@ body {
     background-position: center;
 }
 
+.header {
+    color: white;
+    background-color: #433553;
+    padding: 5px 20px;
+    position: relative;
+}
+
 .langSwitch {
     position: absolute;
     font-size: 1.5rem;
     color: white;
     right: 15px;
-    top: 15px;
+    bottom: -40px;
     z-index: 1;
 }
 

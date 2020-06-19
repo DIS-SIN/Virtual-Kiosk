@@ -11,6 +11,7 @@ export default {
     "getLocale": "fr",
     "getOppositeLocale": "en",
     "getOppositeLang": "English",
+    "headerTitle": "Kiosque virtual de l'Académie du numérique de l'ÉFPC (Beta)",
     busrides: {
         projectName: "Trajets en bus",
         laptop: {
@@ -45,8 +46,8 @@ export default {
             image: cspsIcon
         },
         computerScreen: {
-            url: "https://www.csps-efpc.gc.ca/digital-academy/index-fra.aspx",
-            cta: "Nous aidons les fonctionnaires à devenir numériques. Découvrez l’Académie du numérique.",
+            url: "https://www.csps-efpc.gc.ca/About_us/Business_lines/transferableskills-fra.aspx",
+            cta: "Nous aidons à créer une fonction publique dynamique, connectée et collaborative.",
             image: cspsIcon
         },
         envelope: {
