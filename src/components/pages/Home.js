@@ -1,7 +1,7 @@
 import React from 'react';
 import { useWindowWidth } from "window-dimensions-hooks";
 import { GCSplashScreen } from 'gc-tortilla';
-import LangSwitch from '../molecules/LangSwitch';
+import Header from '../organisms/Header';
 import Kiosk from '../templates/Kiosk';
 import MobileKiosk from '../templates/MobileKiosk';
 import background from '../../assets/background.jpg';
@@ -29,7 +29,7 @@ export default function Home(props) {
                     french: "/Virtual-Kiosk/fr"
                 }}
             />
-            <LangSwitch t={props.t}/>
+            <Header t={props.t}/>
             {showKiosk()}
         </React.Fragment>
     );

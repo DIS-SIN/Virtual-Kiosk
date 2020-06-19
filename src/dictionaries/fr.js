@@ -11,6 +11,7 @@ export default {
     "getLocale": "fr",
     "getOppositeLocale": "en",
     "getOppositeLang": "English",
+    "headerTitle": "Kiosque virtual de l'Académie du numérique de l'ÉFPC (Beta)",
     busrides: {
         projectName: "Trajets en bus",
         laptop: {

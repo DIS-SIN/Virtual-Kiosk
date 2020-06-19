@@ -11,6 +11,7 @@ export default {
     "getLocale": "en",
     "getOppositeLocale": "fr",
     "getOppositeLang": "Français",
+    "headerTitle": "CSPS Digital Academy Virtual Kiosk (Beta)",
     busrides: {
         projectName: "Busrides",
         laptop: {
