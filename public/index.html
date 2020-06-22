@@ -33,6 +33,19 @@
         gtag('config', 'UA-169138456-1');
     </script>
 
+    <!-- Outdate Browser Check and Banner Activation-->
+    <script src="/Virtual-Kiosk/js/OutdatedBrowser.min.js"></script>
+    <script>
+      outdatedBrowserRework({
+        browserSupport: {
+          IE: false,
+          Chrome: false
+        },
+        requireChromeOnAndroid: true,
+        isUnknownBrowserOK: false,
+      });
+    </script>
+    
     <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -62,5 +75,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div id="outdated"><div id="outdated-content"></div>    
   </body>
 </html>
