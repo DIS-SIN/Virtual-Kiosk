@@ -1,32 +1,29 @@
 {
   "files": {
-    "main.css": "/Virtual-Kiosk/static/css/main.3738f33d.chunk.css",
-    "main.js": "/Virtual-Kiosk/static/js/main.bc01f9d4.chunk.js",
-    "main.js.map": "/Virtual-Kiosk/static/js/main.bc01f9d4.chunk.js.map",
+    "main.css": "/Virtual-Kiosk/static/css/main.5731721f.chunk.css",
+    "main.js": "/Virtual-Kiosk/static/js/main.5cac35de.chunk.js",
+    "main.js.map": "/Virtual-Kiosk/static/js/main.5cac35de.chunk.js.map",
     "runtime-main.js": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js",
     "runtime-main.js.map": "/Virtual-Kiosk/static/js/runtime-main.6e6b3e6d.js.map",
-    "static/js/2.d274f7b7.chunk.js": "/Virtual-Kiosk/static/js/2.d274f7b7.chunk.js",
-    "static/js/2.d274f7b7.chunk.js.map": "/Virtual-Kiosk/static/js/2.d274f7b7.chunk.js.map",
+    "static/js/2.8d896b64.chunk.js": "/Virtual-Kiosk/static/js/2.8d896b64.chunk.js",
+    "static/js/2.8d896b64.chunk.js.map": "/Virtual-Kiosk/static/js/2.8d896b64.chunk.js.map",
     "index.html": "/Virtual-Kiosk/index.html",
-    "precache-manifest.35b82c99b53dc1db1fb79e1ef069750b.js": "/Virtual-Kiosk/precache-manifest.35b82c99b53dc1db1fb79e1ef069750b.js",
+    "precache-manifest.e7d00d2fb0bca40277c378bb262d63f8.js": "/Virtual-Kiosk/precache-manifest.e7d00d2fb0bca40277c378bb262d63f8.js",
     "service-worker.js": "/Virtual-Kiosk/service-worker.js",
-    "static/css/main.3738f33d.chunk.css.map": "/Virtual-Kiosk/static/css/main.3738f33d.chunk.css.map",
-    "static/js/2.d274f7b7.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.d274f7b7.chunk.js.LICENSE.txt",
-    "static/media/Digital_Academy_BLF_Placemat_EN.pdf": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_EN.b2193501.pdf",
-    "static/media/Digital_Academy_BLF_Placemat_FR.pdf": "/Virtual-Kiosk/static/media/Digital_Academy_BLF_Placemat_FR.466d4297.pdf",
-    "static/media/DiscoverSeries_EN.pdf": "/Virtual-Kiosk/static/media/DiscoverSeries_EN.7deb16e4.pdf",
-    "static/media/DiscoverSeries_FR.pdf": "/Virtual-Kiosk/static/media/DiscoverSeries_FR.05167220.pdf",
+    "static/css/main.5731721f.chunk.css.map": "/Virtual-Kiosk/static/css/main.5731721f.chunk.css.map",
+    "static/js/2.8d896b64.chunk.js.LICENSE.txt": "/Virtual-Kiosk/static/js/2.8d896b64.chunk.js.LICENSE.txt",
+    "static/media/DiscoverSeries_EN.pdf": "/Virtual-Kiosk/static/media/DiscoverSeries_EN.70b08daf.pdf",
+    "static/media/DiscoverSeries_FR.pdf": "/Virtual-Kiosk/static/media/DiscoverSeries_FR.e0e16186.pdf",
     "static/media/background.jpg": "/Virtual-Kiosk/static/media/background.85ec81c9.jpg",
-    "static/media/kioskEnglish.png": "/Virtual-Kiosk/static/media/kioskEnglish.285acf11.png",
-    "static/media/kioskFrench.png": "/Virtual-Kiosk/static/media/kioskFrench.c3577907.png",
+    "static/media/kioskEnglish.png": "/Virtual-Kiosk/static/media/kioskEnglish.f4ffe8b3.png",
+    "static/media/kioskFrench.png": "/Virtual-Kiosk/static/media/kioskFrench.f9b9df16.png",
     "static/media/kioskGlow.png": "/Virtual-Kiosk/static/media/kioskGlow.18caf0bd.png",
-    "static/media/placemat.png": "/Virtual-Kiosk/static/media/placemat.3c771a01.png",
     "static/media/surveyMonkey.png": "/Virtual-Kiosk/static/media/surveyMonkey.fd6c2c9a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6e6b3e6d.js",
-    "static/js/2.d274f7b7.chunk.js",
-    "static/css/main.3738f33d.chunk.css",
-    "static/js/main.bc01f9d4.chunk.js"
+    "static/js/2.8d896b64.chunk.js",
+    "static/css/main.5731721f.chunk.css",
+    "static/js/main.5cac35de.chunk.js"
   ]
 }
