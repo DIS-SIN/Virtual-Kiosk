@@ -7,8 +7,11 @@ import './index.css';
 import App_EN from './App_EN';
 import App_FR from './App_FR';
 import * as serviceWorker from './serviceWorker';
+import ReactGA from 'react-ga';
 
-if (document.documentElement.lang === "fr"){
+ReactGA.initialize('UA-169138456-1');
+
+if (document.documentElement.lang === "fr") {
     ReactDOM.render(
         <React.StrictMode>
             <HashRouter>
